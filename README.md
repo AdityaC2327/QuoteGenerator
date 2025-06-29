@@ -35,7 +35,7 @@ After training, the model can generate new, creative quotes based on a specified
 ## 🛠️ Tech Stack 
 
 - **Language**: Python  
-- **Libraries**: PyTorch, Hugging Face Transformers, pandas, numpy, scikit-learn, tqdm  
+- **Libraries**: PyTorch, Hugging Face Transformers, pandas, numpy, scikit-learn
 - **Backend**: Flask (for future deployment)  
 - **Planned Frontend**: Streamlit or Flask UI
 
