@@ -1,0 +1,36 @@
+# === Python Cache ===
+__pycache__/
+# Ignore only compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# === Virtual Environment ===
+pyenv/
+Lib/
+Scripts/
+share/
+
+# === Model folders (large) ===
+trained_model/
+fine_tuned_model/
+fine_tuned_gpt2/
+results/
+
+# === Logs ===
+logs/
+
+# === Datasets ===
+train_dataset/
+val_dataset/
+
+# Ignore only big CSVs or sensitive ones
+quotes_by_mood.csv
+train_dataset/
+val_dataset/
+
+# === IDE and OS-specific ===
+.DS_Store
+*.iml
+.vscode/
+.idea/
